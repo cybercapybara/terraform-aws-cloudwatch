@@ -9,7 +9,7 @@ threshold and can notify SNS topics or other actions on state change.
 
 ```hcl
 module "cloudwatch" {
-  source = "github.com/cybercapybara/terraform-aws-cloudwatch"
+  source = "github.com/moveeeax/terraform-aws-cloudwatch"
 
   alarm_name          = "cpu-high"
   metric_name         = "CPUUtilization"
